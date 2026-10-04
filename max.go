@@ -5,8 +5,8 @@ func Max(numbers ...int) int {
 	if len(numbers) == 0 {
 		return 0
 	}
-	best := 0
-	for _, n := range numbers {
+	best := numbers[0]
+	for _, n := range numbers[1:] {
 		if n > best {
 			best = n
 		}
