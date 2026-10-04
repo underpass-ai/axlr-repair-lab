@@ -6,5 +6,5 @@ import "strings"
 
 // WordCount counts the words in text separated by spaces.
 func WordCount(text string) int {
-	return len(strings.Split(text, " "))
+	return len(strings.Fields(text))
 }
