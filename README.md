@@ -35,3 +35,5 @@ with read-only repository permissions and no secrets.
 
 A test that passes only checks what it asserts. Read the diff before you trust
 the green check.
+
+<!-- smoke test of the PR path; never merged -->
